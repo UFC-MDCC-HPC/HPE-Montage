@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HPCShelfMontage", "HPCShelfMontage\HPCShelfMontage.csproj", "{4BC49417-BCA5-4279-88F8-63922AE78F1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "br.ufc.mdcc.hpcshelf.montage.MImgtbl", "..\br.ufc.mdcc.hpcshelf.montage.MImgtbl\br.ufc.mdcc.hpcshelf.montage.MImgtbl\br.ufc.mdcc.hpcshelf.montage.MImgtbl.csproj", "{801836C1-956B-4956-A762-0B1D55D58FC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "br.ufc.mdcc.hpcshelf.montage.MRepository", "..\br.ufc.mdcc.hpcshelf.montage.MRepository\br.ufc.mdcc.hpcshelf.montage.MRepository\br.ufc.mdcc.hpcshelf.montage.MRepository.csproj", "{068F88AB-44D6-405F-9F3C-05995B8E767C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "br.ufc.mdcc.hpcshelf.montage.MOverlaps", "..\br.ufc.mdcc.hpcshelf.montage.MOverlaps\br.ufc.mdcc.hpcshelf.montage.MOverlaps\br.ufc.mdcc.hpcshelf.montage.MOverlaps.csproj", "{D1BE74D5-369C-482E-8CD3-503E1071F5A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "br.ufc.mdcc.hpcshelf.montage.MDiffExec", "..\br.ufc.mdcc.hpcshelf.montage.MDiffExec\br.ufc.mdcc.hpcshelf.montage.MDiffExec\br.ufc.mdcc.hpcshelf.montage.MDiffExec.csproj", "{99B4A020-3CD9-481C-A052-E3634D16416C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "br.ufc.mdcc.hpcshelf.montage.MFitExec", "..\br.ufc.mdcc.hpcshelf.montage.MFitExec\br.ufc.mdcc.hpcshelf.montage.MFitExec\br.ufc.mdcc.hpcshelf.montage.MFitExec.csproj", "{8C862FC6-7F9A-47D0-AC1A-5064285AC6E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "br.ufc.mdcc.hpcshelf.montage.MBgModel", "..\br.ufc.mdcc.hpcshelf.montage.MBgModel\br.ufc.mdcc.hpcshelf.montage.MBgModel\br.ufc.mdcc.hpcshelf.montage.MBgModel.csproj", "{8AF9A4EC-C423-4F7A-8900-C6745BC89F7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "br.ufc.mdcc.hpcshelf.montage.MBgExec", "..\br.ufc.mdcc.hpcshelf.montage.MBgExec\br.ufc.mdcc.hpcshelf.montage.MBgExec\br.ufc.mdcc.hpcshelf.montage.MBgExec.csproj", "{866D42A6-2EDC-48B0-983D-14821479D415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "br.ufc.mdcc.hpcshelf.montage.MAdd", "..\br.ufc.mdcc.hpcshelf.montage.MAdd\br.ufc.mdcc.hpcshelf.montage.MAdd\br.ufc.mdcc.hpcshelf.montage.MAdd.csproj", "{0567E4D4-A9A9-4D2D-AA03-ED960FCB046B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "br.ufc.mdcc.hpcshelf.montage.MJPEG", "..\br.ufc.mdcc.hpcshelf.montage.MJPEG\br.ufc.mdcc.hpcshelf.montage.MJPEG\br.ufc.mdcc.hpcshelf.montage.MJPEG.csproj", "{06B398B8-5561-4EBA-995F-1059984FADD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "br.ufc.mdcc.hpcshelf.montage.MProjExec", "..\br.ufc.mdcc.hpcshelf.montage.MProjExec\br.ufc.mdcc.hpcshelf.montage.MProjExec\br.ufc.mdcc.hpcshelf.montage.MProjExec.csproj", "{7470F8FE-1109-4F34-805D-0517A9FCE55A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0567E4D4-A9A9-4D2D-AA03-ED960FCB046B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0567E4D4-A9A9-4D2D-AA03-ED960FCB046B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0567E4D4-A9A9-4D2D-AA03-ED960FCB046B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0567E4D4-A9A9-4D2D-AA03-ED960FCB046B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{068F88AB-44D6-405F-9F3C-05995B8E767C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{068F88AB-44D6-405F-9F3C-05995B8E767C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{068F88AB-44D6-405F-9F3C-05995B8E767C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{068F88AB-44D6-405F-9F3C-05995B8E767C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06B398B8-5561-4EBA-995F-1059984FADD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B398B8-5561-4EBA-995F-1059984FADD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B398B8-5561-4EBA-995F-1059984FADD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B398B8-5561-4EBA-995F-1059984FADD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BC49417-BCA5-4279-88F8-63922AE78F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC49417-BCA5-4279-88F8-63922AE78F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC49417-BCA5-4279-88F8-63922AE78F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC49417-BCA5-4279-88F8-63922AE78F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7470F8FE-1109-4F34-805D-0517A9FCE55A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7470F8FE-1109-4F34-805D-0517A9FCE55A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7470F8FE-1109-4F34-805D-0517A9FCE55A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7470F8FE-1109-4F34-805D-0517A9FCE55A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{801836C1-956B-4956-A762-0B1D55D58FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{801836C1-956B-4956-A762-0B1D55D58FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{801836C1-956B-4956-A762-0B1D55D58FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{801836C1-956B-4956-A762-0B1D55D58FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{866D42A6-2EDC-48B0-983D-14821479D415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{866D42A6-2EDC-48B0-983D-14821479D415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{866D42A6-2EDC-48B0-983D-14821479D415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{866D42A6-2EDC-48B0-983D-14821479D415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF9A4EC-C423-4F7A-8900-C6745BC89F7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF9A4EC-C423-4F7A-8900-C6745BC89F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF9A4EC-C423-4F7A-8900-C6745BC89F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF9A4EC-C423-4F7A-8900-C6745BC89F7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C862FC6-7F9A-47D0-AC1A-5064285AC6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C862FC6-7F9A-47D0-AC1A-5064285AC6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C862FC6-7F9A-47D0-AC1A-5064285AC6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C862FC6-7F9A-47D0-AC1A-5064285AC6E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99B4A020-3CD9-481C-A052-E3634D16416C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99B4A020-3CD9-481C-A052-E3634D16416C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99B4A020-3CD9-481C-A052-E3634D16416C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99B4A020-3CD9-481C-A052-E3634D16416C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1BE74D5-369C-482E-8CD3-503E1071F5A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1BE74D5-369C-482E-8CD3-503E1071F5A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1BE74D5-369C-482E-8CD3-503E1071F5A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1BE74D5-369C-482E-8CD3-503E1071F5A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = HPCShelfMontage\HPCShelfMontage.csproj
+	EndGlobalSection
+EndGlobal
