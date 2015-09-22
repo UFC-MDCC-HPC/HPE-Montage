@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="ASCII"?>
+<component:component xmlns:component="http://www.example.org/HashComponent">
+  <header hash_component_UID="002400000480000094000000060200000024000052534131000400001100000039b9b3067f79d7865fe7088ef74f60418cbb18c2e4f3fb2498574fe4b0e6558243f6266abba6f2de5ad49bd7a3171e4a1c6c6927a24fd08e2f3ea80bdd11999a8b0c962305defa3612802351bc9a21fc3eedce24ec75d4918f5ccc4624212feeeaf7542f060b4b5298dc6aac3403e6d54741a5dbeaf06cfeb99a141fe1157088" isAbstract="true" kind="Computation" name="MJPEG" packagePath="br.ufc.mdcc.hpcshelf.montage">
+    <versions field1="1" field2="0" field3="0" field4="0"/>
+    <visualAttributes>
+      <color b="255" g="255" r="255"/>
+    </visualAttributes>
+  </header>
+  <componentInfo>
+    <innerComponent localRef="gray_fits" location="br.ufc.mdcc.hpc.storm.binding.environment.EnvironmentBindingBase/EnvironmentBindingBase.hpe" multiple="false" name="EnvironmentBindingBase" package="br.ufc.mdcc.hpc.storm.binding.environment" exposed="false">
+      <visualDescription h="60" w="100" x="69" y="128">
+        <color b="255" g="255" r="255"/>
+      </visualDescription>
+      <parameter formFieldId="client_port_type" varName="C"/>
+      <parameter formFieldId="server_port_type" varName="S"/>
+      <unitBounds parallel="false" uRef="client">
+        <visualDescription h="20" w="20" x="5" y="2"/>
+      </unitBounds>
+      <unitBounds parallel="false" uRef="server">
+        <visualDescription h="20" w="20" x="28" y="2"/>
+      </unitBounds>
+    </innerComponent>
+    <innerComponent localRef="red_fits" location="br.ufc.mdcc.hpc.storm.binding.environment.EnvironmentBindingBase/EnvironmentBindingBase.hpe" multiple="false" name="EnvironmentBindingBase" package="br.ufc.mdcc.hpc.storm.binding.environment" exposed="false">
+      <visualDescription h="60" w="100" x="73" y="200">
+        <color b="255" g="255" r="255"/>
+      </visualDescription>
+      <parameter formFieldId="client_port_type" varName="C"/>
+      <parameter formFieldId="server_port_type" varName="S"/>
+      <unitBounds parallel="false" uRef="client">
+        <visualDescription h="20" w="20" x="5" y="2"/>
+      </unitBounds>
+      <unitBounds parallel="false" uRef="server">
+        <visualDescription h="20" w="20" x="28" y="2"/>
+      </unitBounds>
+    </innerComponent>
+    <innerComponent localRef="green_fits" location="br.ufc.mdcc.hpc.storm.binding.environment.EnvironmentBindingBase/EnvironmentBindingBase.hpe" multiple="false" name="EnvironmentBindingBase" package="br.ufc.mdcc.hpc.storm.binding.environment" exposed="false">
+      <visualDescription h="60" w="108" x="66" y="274">
+        <color b="255" g="255" r="255"/>
+      </visualDescription>
+      <parameter formFieldId="client_port_type" varName="C"/>
+      <parameter formFieldId="server_port_type" varName="S"/>
+      <unitBounds parallel="false" uRef="client">
+        <visualDescription h="20" w="20" x="5" y="2"/>
+      </unitBounds>
+      <unitBounds parallel="false" uRef="server">
+        <visualDescription h="20" w="20" x="28" y="2"/>
+      </unitBounds>
+    </innerComponent>
+    <innerComponent localRef="blue_fits" location="br.ufc.mdcc.hpc.storm.binding.environment.EnvironmentBindingBase/EnvironmentBindingBase.hpe" multiple="false" name="EnvironmentBindingBase" package="br.ufc.mdcc.hpc.storm.binding.environment" exposed="false">
+      <visualDescription h="60" w="100" x="76" y="352">
+        <color b="255" g="255" r="255"/>
+      </visualDescription>
+      <parameter formFieldId="client_port_type" varName="C"/>
+      <parameter formFieldId="server_port_type" varName="S"/>
+      <unitBounds parallel="false" uRef="client">
+        <visualDescription h="20" w="20" x="5" y="2"/>
+      </unitBounds>
+      <unitBounds parallel="false" uRef="server">
+        <visualDescription h="20" w="20" x="28" y="2"/>
+      </unitBounds>
+    </innerComponent>
+    <innerComponent localRef="image_jpeg" location="br.ufc.mdcc.hpc.storm.binding.environment.EnvironmentBindingBase/EnvironmentBindingBase.hpe" multiple="false" name="EnvironmentBindingBase" package="br.ufc.mdcc.hpc.storm.binding.environment" exposed="false">
+      <visualDescription h="60" w="123" x="439" y="174">
+        <color b="255" g="255" r="255"/>
+      </visualDescription>
+      <parameter formFieldId="client_port_type" varName="C"/>
+      <parameter formFieldId="server_port_type" varName="S"/>
+      <unitBounds parallel="false" uRef="client">
+        <visualDescription h="20" w="20" x="5" y="2"/>
+      </unitBounds>
+      <unitBounds parallel="false" uRef="server">
+        <visualDescription h="20" w="20" x="28" y="2"/>
+      </unitBounds>
+    </innerComponent>
+    <innerComponent localRef="status_tbl" location="br.ufc.mdcc.hpc.storm.binding.environment.EnvironmentBindingBase/EnvironmentBindingBase.hpe" multiple="false" name="EnvironmentBindingBase" package="br.ufc.mdcc.hpc.storm.binding.environment" exposed="false">
+      <visualDescription h="60" w="115" x="440" y="300">
+        <color b="255" g="255" r="255"/>
+      </visualDescription>
+      <parameter formFieldId="client_port_type" varName="C"/>
+      <parameter formFieldId="server_port_type" varName="S"/>
+      <unitBounds parallel="false" uRef="client">
+        <visualDescription h="20" w="20" x="5" y="2"/>
+      </unitBounds>
+      <unitBounds parallel="false" uRef="server">
+        <visualDescription h="20" w="20" x="28" y="2"/>
+      </unitBounds>
+    </innerComponent>
+    <innerComponent localRef="c" location="br.ufc.mdcc.hpc.storm.binding.environment.EnvironmentPortType/EnvironmentPortType.hpe" multiple="false" name="EnvironmentPortType" package="br.ufc.mdcc.hpc.storm.binding.environment" exposed="false">
+      <visualDescription h="60" w="100" x="209" y="412">
+        <color b="255" g="255" r="255"/>
+      </visualDescription>
+      <unitBounds parallel="true" uRef="environment_port_type">
+        <visualDescription h="20" w="20" x="5" y="2"/>
+      </unitBounds>
+    </innerComponent>
+    <innerComponent localRef="s" location="br.ufc.mdcc.hpc.storm.binding.environment.EnvironmentPortType/EnvironmentPortType.hpe" multiple="false" name="EnvironmentPortType" package="br.ufc.mdcc.hpc.storm.binding.environment" exposed="false">
+      <visualDescription h="60" w="100" x="340" y="418">
+        <color b="255" g="255" r="255"/>
+      </visualDescription>
+      <unitBounds parallel="true" uRef="environment_port_type">
+        <visualDescription h="20" w="20" x="5" y="2"/>
+      </unitBounds>
+    </innerComponent>
+    <supplyParameter cRef="c" direct="true" varName="C"/>
+    <supplyParameter cRef="s" direct="true" varName="S"/>
+    <interface iRef="MJPEG" nArgs="0">
+      <slice isRef="gray_fits">
+        <originRef cRef="gray_fits" iRef="IClientBase"/>
+        <visualDescription h="10" w="10" x="10" y="0"/>
+      </slice>
+      <slice isRef="red_fits">
+        <originRef cRef="red_fits" iRef="IClientBase"/>
+        <visualDescription h="10" w="10" x="1" y="6"/>
+      </slice>
+      <slice isRef="green_fits">
+        <originRef cRef="green_fits" iRef="IClientBase"/>
+        <visualDescription h="10" w="10" x="1" y="15"/>
+      </slice>
+      <slice isRef="blue_fits">
+        <originRef cRef="blue_fits" iRef="IClientBase"/>
+        <visualDescription h="10" w="10" x="3" y="24"/>
+      </slice>
+      <slice isRef="image_jpeg">
+        <originRef cRef="image_jpeg" iRef="IServerBase"/>
+        <visualDescription h="10" w="10" x="67" y="0"/>
+      </slice>
+      <slice isRef="status_tbl">
+        <originRef cRef="status_tbl" iRef="IServerBase"/>
+        <visualDescription h="10" w="10" x="67" y="27"/>
+      </slice>
+      <visualDescription h="40" w="80" x="269" y="66">
+        <color b="128" g="128" r="128"/>
+      </visualDescription>
+      <action id="main">
+        <protocol/>
+      </action>
+    </interface>
+    <unit facet="0" iRef="MJPEG" multiple="false" private="false" replica="0" uRef="mjpeg" visibleInterface="true">
+      <slices cRef="gray_fits" inner_replica="0" slice_replica="0" uRef="client" sliceName="gray_fits" transitive="false">
+        <visualDescription h="10" w="10" x="10" y="0"/>
+      </slices>
+      <slices cRef="red_fits" inner_replica="0" slice_replica="0" uRef="client" sliceName="red_fits" transitive="false">
+        <visualDescription h="10" w="10" x="1" y="6"/>
+      </slices>
+      <slices cRef="green_fits" inner_replica="0" slice_replica="0" uRef="client" sliceName="green_fits" transitive="false">
+        <visualDescription h="10" w="10" x="1" y="15"/>
+      </slices>
+      <slices cRef="blue_fits" inner_replica="0" slice_replica="0" uRef="client" sliceName="blue_fits" transitive="false">
+        <visualDescription h="10" w="10" x="3" y="24"/>
+      </slices>
+      <slices cRef="image_jpeg" inner_replica="0" slice_replica="0" uRef="server" sliceName="image_jpeg" transitive="false">
+        <visualDescription h="10" w="10" x="67" y="0"/>
+      </slices>
+      <slices cRef="status_tbl" inner_replica="0" slice_replica="0" uRef="server" sliceName="status_tbl" transitive="false">
+        <visualDescription h="10" w="10" x="67" y="27"/>
+      </slices>
+      <visualDescription h="40" w="80" x="269" y="223"/>
+    </unit>
+  </componentInfo>
+</component:component>
