@@ -121,7 +121,7 @@
         <visualDescription h="10" w="10" x="3" y="24"/>
       </slice>
       <slice isRef="image_jpeg">
-        <originRef cRef="image_jpeg" iRef="IServerBase"/>
+        <originRef cRef="image_jpeg" iRef="IClientBase"/>
         <visualDescription h="10" w="10" x="67" y="0"/>
       </slice>
       <slice isRef="status_tbl">
@@ -148,7 +148,7 @@
       <slices cRef="blue_fits" inner_replica="0" slice_replica="0" uRef="client" sliceName="blue_fits" transitive="false">
         <visualDescription h="10" w="10" x="3" y="24"/>
       </slices>
-      <slices cRef="image_jpeg" inner_replica="0" slice_replica="0" uRef="server" sliceName="image_jpeg" transitive="false">
+      <slices cRef="image_jpeg" inner_replica="0" slice_replica="0" uRef="client" sliceName="image_jpeg" transitive="false">
         <visualDescription h="10" w="10" x="67" y="0"/>
       </slices>
       <slices cRef="status_tbl" inner_replica="0" slice_replica="0" uRef="server" sliceName="status_tbl" transitive="false">
